@@ -249,3 +249,16 @@ footer p {
         width: 80vw;
     }
 }
+
+@media screen and (max-width: 380px) {
+    .bx-search {
+        top: -45%;
+        right: -65%;
+    }
+
+    input, .bx-search {
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: -40px;
+    }
+}
